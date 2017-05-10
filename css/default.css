@@ -53,11 +53,18 @@ main {
     text-align: left;
     font-size: 16px;
 }
+section {
+  flex: 1 1 350px;
+  display: -webkit-flex;
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	}
 form {
     padding: 0px 0px 10px 10px
 }
 
-form input[type="textarea"] {
+form input[type="text"] {
     width: 300px;
     height: 130px;
 }
