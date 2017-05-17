@@ -1,10 +1,10 @@
 body, html {
     padding: 0;
-    margin: 10px 70px 10px 10px;
+    margin: 10px 50px 10px 10px;
     height: 100%;
     color: black;
     font-family: Helvetica;
-    background-color: grey;
+    background-color: SlateGray;
 }
 
 
@@ -15,8 +15,7 @@ header {
     height: 70px;
     top: 0;
     left: 0;
-    padding: 10px 70px 10px 10px;
-    letter-spacing: 1px;
+    padding: 10px 50px 10px 10px;
     display: flex;
     justify-content: space-between;
    
@@ -48,22 +47,16 @@ nav li a:hover {
 }
 main {
     padding-top: 85px;
-    background-color: grey;
+    background-color: LightSteelBlue;
     color: black;
     text-align: left;
     font-size: 16px;
 }
-section {
-  
-  display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	}
-form {
-    padding: 0px 0px 10px 10px
+.gen_images {
+    float: right;
+    margin-right: 20px;
 }
 
-form input[type="text"] {
-    width: 300px;
-    height: 130px;
+section {
+    height: 350px;
 }
