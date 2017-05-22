@@ -24,7 +24,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 800;
-    color: #fff;
+    color: #e6e6e6;
     text-align: center;
     display: flex;
     justify-content: flex-end;
@@ -53,17 +53,18 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 18px;
-		color: white;
+		color: #e6e6e6;
 }
 
 nav li a:hover {
-	color: black;
+	color: #404040;
 }
 main {
     padding-top: 640px;
     margin-left: 25px;
-    background-color: #8bb3da;
-    color: black;
+    background-image: url("../img/astronomy-bg.jpg");
+    background-repeat: repeat-y;
+    color: #e6e6e6;
     text-align: left;
     font-size: 16px;
 }
