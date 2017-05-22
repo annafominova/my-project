@@ -4,17 +4,13 @@
     height: 100%;
     color: black;
     font-family: Helvetica;
-    background-color: #19334d;
+    background-color: #00334d;
 }
 
-
-
 header {
-    background-image: url("../img/astronomy.jpg");
+    background-image: url("../img/astronomy-header.jpg");
     background-repeat: no-repeat;
-    position: absolute;
-    width: 960px;
-    height: 641px;
+    width: 100%;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -29,11 +25,9 @@ h1 {
     display: flex;
     justify-content: flex-end;
     margin-right: 30px;
-    
 }
 
 nav {
-    
     margin-top: 80px;
 }
 
@@ -60,10 +54,9 @@ nav li a:hover {
 	color: #404040;
 }
 main {
-    padding-top: 640px;
+    display: none;
     margin-left: 25px;
-    background-image: url("../img/astronomy-bg.jpg");
-    background-repeat: repeat-y;
+    background-color: #00334d;
     color: #e6e6e6;
     text-align: left;
     font-size: 16px;
@@ -84,4 +77,8 @@ p {
 }
 h2 {
     margin-left: 20px;
+}
+footer {
+    background-image: url("../img/astronomy-footer.jpg");
+    
 }
