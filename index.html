@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Solar System</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/default.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
     </head>
     <body>
         <header>
@@ -13,34 +13,34 @@
             </div>
             <nav>
                 <ul>
-                    <li>
+                    <li id="home1">
                         <a href="#home">Сонце</a>
                     </li>
-                    <li>
+                    <li id="mercuri1">
                         <a href="#mercuri">Меркурій</a>
                     </li>
-                    <li>
+                    <li id="venus1">
                         <a href="#venus">Венера</a>
                     </li>
-                    <li>
+                    <li id="earth1">
                         <a href="#earth">Земля</a>
                     </li>
-                    <li>
+                    <li id="mars1">
                         <a href="#mars">Марс</a>
                     </li>
-                    <li>
+                    <li id="jupiter1">
                         <a href="#jupiter">Юпітер</a>
                     </li>
-                    <li>
+                    <li id="saturn1">
                         <a href="#saturn">Сатурн</a>
                     </li>
-                    <li>
+                    <li id="uranus1">
                         <a href="#uranus">Уран</a>
                     </li>
-                    <li>
+                    <li id="neptune1">
                         <a href="#neptune">Нептун</a>
                     </li>
-                    <li>
+                    <li id="pluto1">
                         <a href="#pluto">Плутон</a>
                     </li>
                 </ul>
@@ -117,33 +117,13 @@
                 Плутон перебуває з Нептуном в орбітальному резонансі 3:2 — на кожні три оберти Нептуна навколо Сонця припадає два оберти Плутона, увесь цикл займає 500 років. Об'єкти поясу Койпера, орбіти яких мають такий же резонансо, називаються плутино.</p></div>
             </section>
         </main>
-        <footer id="contacts">
-        <div>
-            <div id="contactTittle">
-                <h2>Зв'язатись з нами</h2>        
-            </div>
-            <form method="GET" action="index.html">
-                <label>
-                    <span>Ваше ім'я</span>
-                    <br>
-                    <input type="text" name="name">    
-                    <br>
-                </label>
-                <label>
-                    <span>Ваш email</span>
-                    <br>
-                    <input type="email" name="email">    
-                    <br>
-                </label>
-                <label>
-                    <span>Ваше повідомлення</span>
-                    <br>
-                    <input type="text" name="message">    
-                    <br>
-                </label>
-                <input type="submit" value="Надіслати">
-            </form>    
+        <footer>
+        <div id="ending">
+           <p><b>Вивчайте всесвіт!</b></p>   
+           <p id=copywrite>© 2017  All rights reserved</p>
         </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
